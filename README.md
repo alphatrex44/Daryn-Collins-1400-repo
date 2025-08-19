@@ -33,4 +33,4 @@ You are encouraged in this class to study with a partner in this class, but do N
 #### Instructor contact options ####
 * Email 1: michael.kingston@vanguardcharter.org
 * Email 2: jkings19@slcc.edu
-* Microsoft Teams
+* Microsoft Teams 
