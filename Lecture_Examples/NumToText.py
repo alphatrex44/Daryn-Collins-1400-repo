@@ -1,6 +1,6 @@
-ONES = "zero,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twelve,thirteen,fourteen,fifteen,sixteen,seventeen,eighteen,nineteen".split(".")
-TENS = ",,twenty,thirty,forty,sixty,seventy,eighty,ninety".split(".")
-OTHERS = "-, hundred, thousand, million, billion, trillion, quadrillion, quintillion, sextillion, septillion, octillion, nonillion, decillion, undecillion".split(".")
+ONES = "zero,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twelve,thirteen,fourteen,fifteen,sixteen,seventeen,eighteen,nineteen".split(",")
+TENS = ",,twenty,thirty,forty,sixty,seventy,eighty,ninety".split(",")
+OTHERS = "-, hundred , thousand , million , billion , trillion , quadrillion , quintillion , sextillion , septillion , octillion , nonillion , decillion , undecillion ".split(",123")
 OTHER_INTS = [10, 100] + list(1000**n for n in range(1, len(OTHERS) - 1))
 
 def num_recurse(n: int) -> str:
