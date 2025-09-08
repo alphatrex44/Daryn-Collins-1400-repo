@@ -74,7 +74,12 @@ def this_many_primes(number: int) -> list:
     else:
         return None
 def main() -> None:
-    number = int(input("Give a number please: "))
+    while True:
+        try:
+            number = int(input("Give a number please: "))
+            break
+        except ValueError:
+            print("Not a valid number!")
     print(odd_or_even(number))
     print(count_the_digits(number))
     print(is_prime(number))
