@@ -34,7 +34,7 @@ def make_prime_list(number: int) -> list:
         return(known_primes)
     else:
         known_primes = []
-        return(known_primes)
+        return("None")
 
 def is_prime(number: int) -> bool:
     known_primes = make_prime_list(number)
@@ -59,8 +59,8 @@ def next_prime(number: int) -> int:
             if is_number_prime:
                 return independent_number
             independent_number += 1
-        else:
-            return 2
+    else:
+        return 2
 
 def this_many_primes(number: int) -> list:
     known_primes = make_prime_list(number*number)
@@ -72,7 +72,7 @@ def this_many_primes(number: int) -> list:
             else:
                 return prime_count
     else:
-        return None
+        return "None"
 def main() -> None:
     while True:
         try:
