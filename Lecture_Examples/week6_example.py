@@ -1,5 +1,5 @@
 def main() -> None:
-    f = open("..\\testing_stuff\\testing_text")
+    f = open("../text_files/testing_text")
 
     print(f.read())
 
