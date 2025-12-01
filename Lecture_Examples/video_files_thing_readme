@@ -1,0 +1,5 @@
+here are the things you'll need for video files
+1. ffmpeg (should be pre-installed but might not work)
+2. JSON edit (if your mac)
+3. yt-dlp
+4. vlc should be used to play most files for audio to work (pre-installed in the video_files folder)
